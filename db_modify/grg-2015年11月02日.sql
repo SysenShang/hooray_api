@@ -1,0 +1,3 @@
+ALTER TABLE `edu_task` ADD `everyday_ask` TINYINT(4)  UNSIGNED  NOT NULL  DEFAULT '0'  AFTER `updated_at`;
+ALTER TABLE `edu_task` ADD `lastdate_ask` TIMESTAMP  NOT NULL  ON UPDATE CURRENT_TIMESTAMP DEFAULT CURRENT_TIMESTAMP  AFTER `everyday_ask`;
+ALTER TABLE `edu_task` ADD `serial_ask` TINYINT(4)  UNSIGNED  NOT NULL  DEFAULT '0'  AFTER `lastdate_ask`;

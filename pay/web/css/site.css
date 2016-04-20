@@ -1,0 +1,180 @@
+/*html,
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+*/
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+
+/* 底部*/
+.main_foot{ font-size:12px; height: auto; color:#ccc; background: #484848}
+.main_foot p{ line-height: 28px;}
+.main_foot p a{ color:#ccc;}
+.main_foot .middle{ border-left: solid 2px gray; border-right: solid 2px gray}
+.main_foot .bottom{ border-top: solid 1px #ccc; margin: 20px 0; padding: 20px 0 10px 0}
+/*********底部结束************/
+
+/*******登陆开始*********/
+.site-login {height: 622px;}
+.site-login .img_bg{ max-width: 500px }
+.site-login img{ max-width: 100% }
+.site-login .login_box{ max-width: 100% }
+/*******登陆结束*********/
+
+/*******充值页面开始*********/
+.create_pay .title{ margin-top: 15px}
+.create_pay a{ color: #27b3b0 }
+.create_pay .selection_amount .thumbnail{ border: 1px solid gray; padding-bottom: 10px; cursor:pointer;  position: relative;}
+.create_pay .selection_amount .thumbnail:hover{ border: 1px solid gray;}
+.create_pay .selection_amount .hover{ border: 1px solid gray;}
+.create_pay .selection_amount .thumbnail .right_bottom{position: absolute; right: 0px; bottom: 0px; width: 43px; height: 33px; width: 0; height: 0; border-bottom: 40px solid #25b4b0; border-left: 40px solid transparent; display: none}
+.create_pay .selection_amount .thumbnail .show{display: block}
+.selection_amount .thumbnail .right_bottom .i{position: absolute; right: 3px; top: 20px; color: #fff }
+.create_pay .selection_amount .left_top{position: absolute; left: 0px; top: 0px; background: #f29715; color: #fff ; padding: 5px 10px;}
+.create_pay .selection_amount h2{ color: #25b4b2}
+.create_pay .selection_amount h4{ color: #2b2b2b}
+.create_pay .payment_method img{ max-width:100%}
+.create_pay .explain{ background: #fffde8; border: 1px #cccccc dashed}
+.create_pay .explain h4{margin-left:10px; font-size: 22px}
+.create_pay .explain li{font-size: 22px; color: #666; line-height: 40px; }
+.create_pay .total{ font-size: 20px;}
+.create_pay .total .price{ font-size: 26px; color: #f09813}
+.create_pay .submit_button{ width: 150px}
+.create_pay .return_button{ background: #01c4c6; color: #fff; border: none}
+.create_pay .modal-title{font-size: 22px; color: #4b4b4b}
+.create_pay .modal-body h3{font-size: 22px; margin-top: 40px; color: #4b4b4b}
+.create_pay .modal-body ol li{line-height: 30px; color: #999}
+/*******充值页面结束*********/
+
+/**********交易记录*************/
+.recharge-order{ min-height: 662px; font-size: 16px;}
+.recharge-order .top{ background:url("../imgs/rechargingrecords_bg.png"); background-size: 100% 100%; height: 180px; margin-top:50px; }
+.recharge-order .top .user{ margin-top: 40px; color: #1c1c1c}
+.recharge-order .top .user .balance{ font-size: 30px; color: #e67e01}
+.recharge-order .top .user .recharge{ background: #03c3c4; color: #fff; font-size: 18px; padding: 0 10px;}
+.recharge-order .list{ padding: 20px 0 10px 0; border-bottom: 1px solid #cccccc}
+.recharge-order .list_title{ color: #b1b1b1; font-size: 20px; }
+.recharge-order .total_price{ color: #b1b1b1; font-size: 20px; }
+.recharge-order .list .details{ margin-top: 26px; color: #797979;}
+.recharge-order .list .go_on{ color: #01c4c8}
+/*********交易记录结束**********/
+
+
+/*********弹框**********/
+/*pad大弹框 */
+#pad{display:none; width:945px; height:570px; position:fixed;z-index:1000 !important; top:18%; left:24%;background-color:white}
+#pad .icon{margin:20px}
+#pad .first{margin:50px 108px}
+#pad .first p{font-size:31px ; width:700px;}
+#pad .first .two .pad{width:276px; margin:0 55px}
+#pad .first .two .pad img{width:75%}
+#pad .first .two .pad1{width:350px;  margin: -150px 290px;}
+#pad .first .two .pad1 p{font-size:22px; width:346px}
+#pad .first .two .pad1 a{display: block; margin-bottom:26px}
+#pad .first .two .pad1 a img{width:272px}
+
+/*phone大弹框*/
+#phone{display:none; width:945px; height:570px; position:fixed;z-index:1000 !important; top:18%; left:24%;background-color:white}
+#phone .icon{margin:20px}
+#phone .first{margin:50px 108px}
+#phone .first p{font-size:31px ; width:700px;}
+#phone .first .two .phone{width:276px; margin:0 77px}
+#phone .first .two .phone img{width:75%}
+#phone .first .two .phone1{width:350px;  margin: -200px 290px;}
+#phone .first .two .phone1 p{font-size:20px; width:370px}
+#phone .first .two .phone1 a{display: block; margin-bottom:26px}
+#phone .first .two .phone1 a img{width:230px}
+
+/*关于我们*/
+#about{display:none; width:730px; height:470px; position:fixed;z-index:1000 !important; top:8%; left:30%;background-color:white; font-size: 16px; color:#2A2A2A;padding: 7px 91px;}
+#about a img{margin: 0 -76px; width: 10%;}
+#about h1{font-size:25px; text-align:center;margin-bottom:30px}
+#about .text-left{display:block;text-align:left;}
+#about .span2{display:block;text-align:left;margin-top: 20px;}
+#about .span3{display:block;text-align:left;margin-top: 10px;}
+#about .span4{display:block;text-align:left;margin-top: 20px;}
+
+#body{position:absolute; z-index:100; top:0%; left:0%; width:100%; background: #000; opacity:0.5; display:none}
+/*********结束**********/
+

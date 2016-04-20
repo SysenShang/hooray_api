@@ -1,0 +1,6 @@
+测试jenkins
+为什么总是删除工程文件.
+
+jenkins git branch 配置为 ref/heads/develop
+好像好了
+构建之后修改jenkins的工程目录为root用户
